@@ -1,0 +1,3 @@
+model,method,BLEU,term_accuracy,boilerplate_count
+HuggingFaceTB/SmolLM2-1.7B-Instruct,second_no_term,11.615956343636157,0.22413793103448276,0
+HuggingFaceTB/SmolLM2-1.7B-Instruct,second_basic,6.725848691422054,0.7413793103448276,0

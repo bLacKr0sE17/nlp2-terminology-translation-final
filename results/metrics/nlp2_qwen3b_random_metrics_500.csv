@@ -1,0 +1,2 @@
+method,BLEU,random_term_adherence,proper_term_accuracy,boilerplate_count
+qwen3b_random,10.836038177311442,0.7522441651705566,0.16696588868940754,3
