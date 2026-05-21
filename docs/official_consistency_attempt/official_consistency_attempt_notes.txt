@@ -1,0 +1,8 @@
+Official WMT term-consistency script attempt.
+
+The script was able to load the English/German Stanza pipelines and the alignment model,
+and it found the generated submission file. However, it failed during the LLM-based
+term alignment step because the implementation requires a valid OpenAI API key.
+
+Therefore, we did not use the official consistency metric in the report. Instead, we report
+a lightweight repeated-term consistency diagnostic computed directly from required target-term matches.

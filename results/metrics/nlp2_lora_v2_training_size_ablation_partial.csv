@@ -1,0 +1,4 @@
+train_source_examples,sft_rows,method,BLEU,term_accuracy,boilerplate_count
+50,100,LoRA v2 basic (50),19.351533660564296,0.7272727272727273,0
+100,200,LoRA v2 basic (100),19.854920625298337,0.7,0
+200,400,LoRA v2 basic (200),20.726241444960653,0.6727272727272727,0
