@@ -58,4 +58,4 @@ The original WMT terminology data and trained adapter checkpoints are not redist
 
 ## Report
 
-The final report PDF is stored in `report/`.
+The final report PDF is stored in `report/`. The report explains the experimental setup, main 500-example results, diagnostic experiments, limitations, and appendix tables corresponding to the files in this repository.
