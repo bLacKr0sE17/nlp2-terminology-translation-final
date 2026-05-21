@@ -10,8 +10,8 @@ The experiments compare prompting-based methods, a random terminology control, l
 
 ## Main models
 
-- Qwen/Qwen2.5-1.5B-Instruct
-- Qwen/Qwen2.5-3B-Instruct
+- `Qwen/Qwen2.5-1.5B-Instruct`
+- `Qwen/Qwen2.5-3B-Instruct`
 - Additional small-model diagnostics, including Qwen3 and SmolLM2 variants
 
 ## Main metrics
@@ -27,7 +27,7 @@ The experiments compare prompting-based methods, a random terminology control, l
 - `notebooks/`: main experiment notebooks and diagnostic notebooks
 - `results/metrics/`: CSV result tables used in the report
 - `results/graphs/`: saved figures generated during analysis
-- `results/outputs_sample/`: generated output CSV files for reported experiments
+- `results/outputs_sample/`: generated output CSV files for reported and diagnostic experiments
 - `docs/official_consistency_attempt/`: notes and evidence from the attempted official WMT consistency-script run
 - `report/`: final report PDF
 - `requirements.txt`: Python package requirements
@@ -50,7 +50,9 @@ The random terminology control shows that models may follow supplied terms even 
 
 ## Reproducibility notes
 
-The main result tables used in the report are stored in `results/metrics/`, and generated output samples are stored in `results/outputs_sample/`.
+The main result tables used in the report are stored in `results/metrics/`, and generated output files are stored in `results/outputs_sample/`.
+
+Some generated output files are raw diagnostic outputs and may contain failure cases such as chat-style boilerplate, multilingual artifacts, or imperfect repair outputs. These files are kept for transparency and error analysis. The report distinguishes these diagnostic outputs from the main evaluated systems.
 
 The original WMT terminology data and trained adapter checkpoints are not redistributed. To rerun the full pipeline, place the WMT terminology data in the expected data folder and run the notebook cells in order.
 
